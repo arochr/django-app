@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'django_app.wsgi.application'
 
 DEVELOPMENT_MODE = os.getenv("DEVELOPMENT_MODE", "False") == "True"
 
-# DEVELOPMENT_MODE = True
+DEVELOPMENT_MODE = True
 
 if DEVELOPMENT_MODE is True:
     DATABASES = {
