@@ -10,7 +10,9 @@ https://docs.djangoproject.com/en/4.0/howto/deployment/wsgi/
 import os
 
 from django.core.wsgi import get_wsgi_application
+import sys
 
+# sys.path.append('/django_app/django_app')
 sys.path.append('/home/django_app/django_app')
 # sys.path.append('/home/django_projects/MyProject/myproject')
 
